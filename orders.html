@@ -17,6 +17,10 @@
 <body>
     <header class="header">
 
+        <div>
+            <a href="index.html"><img class="logo" src="/img/home.png"></a>
+        </div>
+
     </header>
     <main class="main">
 
@@ -24,7 +28,13 @@
             <h1>Создайте заказ</h1>
             <p>&#127801 &#127804 &#127797</p>
             <p>Лучший подарок - это цветы!</p>
+            <p>Напоминаем о том, что заказы обрабатываются с 09:00 ч. до 18:00ч.</p>
+            <p>Уточнить точное время в соответствии с часовым поясом нашего города можно ниже, нажав кнопку.</p>
+            <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+                Уточнить местное время</button>
+            <p id="demo"></p>
         </div>
+
         <!--TODO-->
 
     </main>

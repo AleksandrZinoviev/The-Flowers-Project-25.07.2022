@@ -46,6 +46,10 @@ body {
 	min-height: 100%;
 }
 
+.logo {
+	position: absolute;
+}
+
 .main {
 	display: block;
 	text-align: center;
